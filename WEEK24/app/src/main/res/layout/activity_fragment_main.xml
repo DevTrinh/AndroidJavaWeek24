@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityFragmentIntroduce"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/tv_hello_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Hello Fragment"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <FrameLayout
+        android:id="@+id/fr_contain_fragment_top"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_hello_fragment"
+        app:layout_constraintBottom_toTopOf="@id/fr_contain_fragment_bottom"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintVertical_bias="0">
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/bt_add_fragment_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/fr_contain_fragment_top"
+        app:layout_constraintRight_toLeftOf="@+id/bt_add_fragment_b"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="ADD FRAGMENT A"
+        android:onClick="addFragment" />
+
+    <Button
+        android:id="@+id/bt_add_fragment_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/fr_contain_fragment_top"
+        app:layout_constraintLeft_toRightOf="@+id/bt_add_fragment_a"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="ADD FRAGMENT B"
+        android:onClick="addFragment"/>
+
+    <FrameLayout
+        android:id="@+id/fr_contain_fragment_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/fr_contain_fragment_top"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintVertical_bias="1">
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

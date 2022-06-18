@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1785" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/drawable/bg_gray_corner_10dp.xml" value="0.2295" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/drawable/bg_white_corner_10_border_gray.xml" value="0.2295" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/drawable/bg_white_corner_16dp.xml" value="0.2295" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/drawable/bg_white_corner_16dp_topleft_topright.xml" value="0.2295" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/drawable/bg_yellow_corner_10.xml" value="0.2295" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/drawable/custom_cb_list_song.xml" value="0.235" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/drawable/custom_cb_music.xml" value="0.2625" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/a.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_app_music.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_fragment_bundle.xml" value="0.33" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_fragment_event.xml" value="0.33" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_fragment_main.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_fragment_remove_and_pop_back_stack.xml" value="0.22" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_list_fragment.xml" value="0.27226677923174336" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_list_song_music.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_main.xml" value="0.42916666666666664" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_multiple_screen.xml" value="0.3392029657089898" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_sqlite_to_do_list.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_web_service_insert_data.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_web_service_return_json.xml" value="0.25" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/activity_web_service_update_data.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/content_app_music.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/dialog_add_item.xml" value="0.34698184888138456" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/dialog_add_item_sql.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/dialog_update_item_sql.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_a.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_b.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_bundle.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_event_a.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_event_b.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_list_song_music.xml" value="0.23262279888785914" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_list_with_recycler.xml" value="0.2714225411566062" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_remove_a.xml" value="0.34698184888138456" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_remove_b.xml" value="0.34698184888138456" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/fragment_remove_c.xml" value="0.34782608695652173" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/item_fragment_list.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/item_list_song.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/item_student.xml" value="0.33" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/item_work_strean.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/layout/style_pb.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/menu.xml" value="0.33" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/menu_add_item_sql.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/menu_sql_nav.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/mn_add_item_sql.xml" value="0.340129749768304" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/mn_add_item_student.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/mn_home.xml" value="0.3514322359982899" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/mn_nav_student.xml" value="0.3522873022659256" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/mn_return_home.xml" value="0.42916666666666664" />
+        <entry key="..\:/JavaAndroid/WEEK24/app/src/main/res/menu/mn_sql_nav.xml" value="0.340129749768304" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

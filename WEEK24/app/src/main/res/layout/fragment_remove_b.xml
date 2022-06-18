@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/fr_remove_b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_700">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Fragment Remove B"
+        android:textSize="40sp"
+        android:textColor="@color/purple_700"
+        android:gravity="center"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

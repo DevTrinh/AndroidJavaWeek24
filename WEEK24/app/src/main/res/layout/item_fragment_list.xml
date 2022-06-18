@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="12dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_fragment_list_avt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/iv_avt_rc"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_represent_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@id/iv_fragment_list_avt"
+            app:layout_constraintRight_toLeftOf="@+id/tv_fragment_list_name"
+            app:layout_constraintTop_toTopOf="@+id/iv_fragment_list_avt"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:text="Full Name: "
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_fragment_list_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@id/iv_fragment_list_avt"
+            app:layout_constraintLeft_toRightOf="@id/tv_represent_name"
+            app:layout_constraintBottom_toBottomOf="@id/tv_represent_name"
+            android:layout_marginTop="8dp"
+            android:text="trinh van manh"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/tv_represent_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@+id/iv_fragment_list_avt"
+            app:layout_constraintTop_toBottomOf="@+id/tv_represent_name"
+            app:layout_constraintRight_toLeftOf="@+id/tv_fragment_list_number"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_fragment_list_avt"
+            android:layout_marginStart="12dp"
+            android:text="Number Phone: "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_fragment_list_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="@+id/tv_represent_number"
+            app:layout_constraintLeft_toRightOf="@id/tv_represent_number"
+            app:layout_constraintBottom_toBottomOf="@id/tv_represent_number"
+            android:text="0868841059"
+            android:textSize="14sp"
+            android:textColor="@color/black" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

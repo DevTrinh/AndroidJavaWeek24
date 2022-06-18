@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/it_navigation"
+        android:title="@string/it_menu_nav"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu">
+            <menu>
+                <item
+                    android:id="@+id/it_app_music"
+                    android:title="@string/app_music"/>
+
+                <item
+                    android:id="@+id/it_note_app"
+                    android:title="@string/note_app"/>
+                <item
+                    android:id="@+id/it_webservice"
+                    android:title="@string/it_webservice"/>
+                <item
+                    android:id="@+id/it_fragment"
+                    android:title="@string/it_fragment">
+
+                    <menu>
+                        <item
+                            android:id="@+id/it_fragment_layout"
+                            android:title="@string/tv_fragment_layout"
+                            />
+                        <item
+                            android:id="@+id/it_fragment_event"
+                            android:title="@string/fragment_event"/>
+
+                        <item
+                            android:id="@+id/it_fragment_bundle"
+                            android:title="Transmit And Receive Data"/>
+
+                        <item
+                            android:id="@+id/it_fragment_remove_popbackstack"
+                            android:title="@string/remove_and_popbackstack"/>
+
+                        <item
+                            android:id="@+id/it_list_fragment"
+                            android:title="@string/list_fragment"/>
+
+                    </menu>
+                </item>
+
+            </menu>
+    </item>
+</menu>

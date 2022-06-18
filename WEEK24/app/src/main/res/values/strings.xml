@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">WEEK24</string>
+    <string name="it_webservice">Webservice</string>
+    <string name="it_home">Navigation</string>
+    <string name="it_menu_nav">Menu Nav</string>
+    <string name="it_update">Update</string>
+    <string name="it_delete">Delete</string>
+    <string name="tv_name">Họ và tên: Trịnh Văn Mạnh</string>
+    <string name="tv_id">CD202185</string>
+    <string name="tv_address">Nơi ở: Hà Nội</string>
+    <string name="tv_age">Tuổi: 12</string>
+    <string name="tv_note">ADD INFO STUDENT</string>
+    <string name="tv_add_note">ENTER INFO</string>
+    <string name="bt_cancel">Cancel</string>
+    <string name="bt_confirm">Confirm</string>
+    <string name="tv_hint_new_note">Code Student</string>
+    <string name="et_name_student">Name Student</string>
+    <string name="et_date">Date</string>
+    <string name="et_address">Address</string>
+    <string name="tv_update_data">UPDATE DATA</string>
+    <string name="tv_enter_data_update">Enter Data Update</string>
+    <string name="id">ID</string>
+    <string name="date">Date</string>
+    <string name="tv_fragment_layout">Fragment layout</string>
+    <string name="it_fragment">Fragment</string>
+    <string name="fragment_event">Fragment Event</string>
+    <string name="fragment_bundle">Fragment Bundle</string>
+    <string name="remove_and_popbackstack">Remove And PopBackStack</string>
+    <string name="list_fragment">List Fragment</string>
+    <string name="title_activity_app_music">AppMusic</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="alan_walker">Alan Walker</string>
+    <string name="app_music">App Music</string>
+    <string name="note_app">Note App</string>
+    <string name="name_working">Name Working</string>
+    <string name="note">NOTE</string>
+    <string name="enter_content_note">Enter content note !</string>
+    <string name="new_note">New note</string>
+    <string name="update_your_note">Update Your Note</string>
+</resources>
